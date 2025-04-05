@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eed6d3; /* Dusty Rose */
+  color: #67595e; /* Coffee Pot Dark */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.information {
+  background-color: #e8b4b8; /* Rosewater */
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 90%;
+  max-width: 400px;
+  height: 45px;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #a49393; /* Coffee Pot */
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+button {
+  width: 90%;
+  max-width: 400px;
+  height: 45px;
+  margin-top: 10px;
+  background-color: #a49393; /* Coffee Pot */
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #67595e; /* Coffee Pot Dark */
+}
+
+.employees {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.employee {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 15px 0;
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.employee h3 {
+  margin: 8px 0;
+  font-weight: 500;
+  color: #67595e;
+}
+
+.employee input {
+  height: 40px;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #a49393;
+  padding: 8px;
+}
+
+.employee button {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+}
